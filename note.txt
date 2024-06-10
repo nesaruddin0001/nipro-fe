@@ -1,0 +1,81 @@
+color --------------------------------------------------
+
+kora black----- #333333
+halka black--- #8e8e8e
+white----- #ffffff
+many halka black-- #f8f8f8
+
+
+fonts ---------------------------------------------------------
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+icon-----------------------------------------------------------------------------------
+
+font awesome----------------------------------------------
+search--- <i class="fa-solid fa-magnifying-glass"></i>
+arrow--- <i class="fa-solid fa-arrow-right"></i>
+fb--- <i class="fa-brands fa-facebook-f"></i>
+twitter--- <i class="fa-brands fa-twitter"></i>
+dribble--- <i class="fa-brands fa-dribbble"></i>
+instagram--- <i class="fa-brands fa-instagram"></i>
+quote--- <i class="fa-solid fa-quote-left"></i>
+behance--- <i class="fa-brands fa-behance"></i>
+linkedin--- <i class="fa-brands fa-linkedin-in"></i>
+google plus g--- <i class="fa-brands fa-google-plus-g"></i>
+
+
+
+--------------------------------------------------------------------------------
+margin                xxl-xl-lg           md                 sm         col
+
+header               t+b- 35px              35                 28
+
+about us             t- 100px              80                 60          50
+                     b- 120px              100                80          60
+
+
+choose               b- 100px              80                 80          60
+
+pricing              b-100                                     70 
+
+profile              t+b 100               80                  70 
+
+contact              b- 100                 80                 70          60
+
+
+
+
+
+
+-------------------------------------------------------------------------------------
+padding                xxl-xl-lg           md                 sm         col
+
+recent work            b- 100px            80                 70          60
+
+
+
+

@@ -1,0 +1,921 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+/* header start      */
+header {
+    margin: 38px 0 38px;
+}
+.logo {
+    font-size: 20px;
+}
+.menu ul li a {
+    margin: 10px 0 0;
+}
+.dropdown-menu[data-bs-popper] {
+    left: 0px;
+}
+.dropdown-menu {
+    --bs-dropdown-min-width: 10rem;
+}
+/* header end  */
+
+/* slider start  */
+.slider_row {
+    justify-content: center;
+}
+.slider_item {
+    margin: 70px 0;
+}
+.cus_slider {
+    text-align: center;
+}
+.slider_item h2 {
+    font-size: 25px;
+}
+.slider_item p {
+    margin: 30px 0 30px;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+.slider_btn a {
+    padding: 10px 10px;
+}
+/* slider end  */
+
+/* welcome start  */
+.wlcm_shape{
+    height: 40px;
+}
+.wlcm_title h1 {
+    font-size: 25px;
+}
+.frst_row_content p {
+    line-height: 30px;
+    word-spacing: 0px;
+}
+.scnd_row_content {
+    margin-top: 50px;
+}
+.scnd_row_content h3 {
+    margin: 60px 0 20px;
+}
+.scnd_row_content p {
+    margin: 6;
+    padding: 10px;
+    line-height: 26px;
+}
+.wlcm_btn {
+    margin-bottom: 15px;
+}
+/* welcome end  */
+
+/* about us start  */
+.aboutus {
+    margin: 50px 0 60px;
+}
+.about_text {
+    text-align: center;
+}
+.about_img img {
+    padding: 0 20px;
+}
+.about_title h1 {
+    margin-top: 30px !important;
+}
+.about_para {
+    margin: 20px 0;
+    line-height: 28px;
+    word-spacing: 0px;
+}
+.about_para2{
+    line-height: 28px;
+    word-spacing: 0px;
+}
+.about_btn a {
+    margin-top: 40px;
+    padding: 7px 15px;
+}
+/* about us end  */
+
+/* recent work start  */
+.r_work{
+    padding-bottom: 60px;
+}
+.work_shape {
+    height: 40px;
+}
+.work_title {
+    margin: 20px 0 50px;
+}
+.work_title h1 {
+    font-size: 25px;
+}
+.work_btn button {
+    margin: 0 0 0 6px;
+    padding: 5px 5px;
+}
+.work_img {
+    margin-top: 35px;
+}
+/* recent work end  */
+
+/* why choose nipro start  */
+.choose {
+    margin: 0 0 60px;
+}
+.choose_item {
+    margin-top: 35px
+}
+.choose_shape {
+    height: 40px;
+}
+.choose_title h1 {
+    font-size: 25px;
+}
+.choose_item p {
+    margin: 10px 0 15px;
+    line-height: 23px;
+    word-spacing: 7px;
+}
+/* why choose nipro end  */
+
+/* who work with us --- client start  */
+.client{
+    padding: 0 0 45px;
+}
+.client_shape {
+    height: 40px;
+}
+.client_title {
+    margin: 15px 0 0;
+}
+.client_title h1 {
+    font-size: 24px;
+}
+.client_content {
+    margin: 25px 0 20px;
+    padding: 0 40px;
+}
+.client_icon {
+    bottom: 34%;
+    left: 40px;
+}
+/* who work with us --- client end  */
+
+/* best pricing start  */
+.price {
+    margin: 0 0 60px;
+}
+.price_shape {
+    height: 40px;
+}
+.price_title h1 {
+    margin: 20px 0 0;
+    font-size: 27px;
+}
+.pricecolpadd {
+    padding: 0 35px;
+}
+.price_content {
+    margin: 55px 0 0;
+}
+.price_content ul li {
+    margin-top: 15px;
+}
+.price_btn {
+    margin: 20px 0;
+}
+.price_btn a {
+    padding: 9px 48px;
+}
+/* best pricing end  */
+
+/* responsive start  */
+.responsive {
+    padding: 20px 0;
+}
+.res_col_padd{
+    padding: 0;
+}
+.res_text h1 {
+    margin: 15px 0 !important;
+    padding: 0;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+.res_btn{
+    text-align: center;
+}
+.res_btn a {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+/* responsive end  */
+
+/* profile start  */
+.profile{
+    margin: 60px 0;
+}
+.profile_content {
+    padding: 25px 17px;
+}
+.prof_text h4{
+    margin-top: 30px !important;
+}
+.prof_text {
+    text-align: center;
+}
+.profpara1 {
+    margin: 7px 0;
+}
+.profpara3 {
+    margin: 10px 0;
+}
+.prof_cntrls_btn {
+    margin-top: 20px;
+    height: 70px;
+    writing-mode: horizontal-tb;
+}
+.prof_cntrls_btn button {
+    margin: 21px 37px;
+}
+/* profile end  */
+
+/* contact us start  */
+.contact{
+    margin-bottom: 60px;
+    padding: 0 20px;
+}
+.contact_top {
+    top: -17px;
+    left: 50px;
+}
+.contact_top h3 {
+    font-size: 25px;
+}
+.contact_content {
+    padding: 0 20px;;
+}
+.contact_fn input {
+    margin-top: 60px;
+}
+.contact_ln input, .contact_em input , .contact_ta textarea{
+    margin-top: 30px;
+}
+.contact_btn {
+    margin: 20px 0;
+}
+.contact_btn a {
+    padding: 8px 17px;
+}
+/* contact us end  */
+
+/* footer start  */
+.foot_shape {
+    height: 40px;
+}
+.foot_title h1 {
+    font-size: 25px;
+}
+.footpara {
+    margin: 20px 0;
+    line-height: 23px;
+    word-spacing: 0px;
+}
+.footbtmpara p {
+    margin: 10px 0 10px !important;
+    font-size: 11px;
+}
+.foot_icon ul li a i {
+    padding: 5px 7px;
+    font-size: 16px;
+}
+.footbb {
+    margin: 40px 0 5px;
+}
+.footbtm {
+    padding-bottom: 12px;
+}
+.footbtmpara {
+    text-align: center;
+}
+.footbtmmenu {
+    text-align: center;
+}
+.footbtmmenu ul li a{
+    font-size: 11px;
+}
+/* footer end  */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+/* header start      */
+header {
+    margin: 30px 0 30px;
+}
+.menu ul li a {
+    margin: 15px 0 0;
+}
+.dropdown-menu[data-bs-popper] {
+    left: 0px;
+}
+.dropdown-menu {
+    --bs-dropdown-min-width: 12rem;
+}
+/* header end  */
+
+/* slider start  */
+.slider_row {
+    justify-content: center;
+}
+.slider_item {
+    margin: 140px 0;
+}
+.cus_slider {
+    text-align: center;
+}
+.slider_item h2 {
+    font-size: 35px;
+}
+.slider_item p {
+    margin: 30px 0 30px;
+    line-height: 35px;
+    word-spacing: 3px;
+}
+.slider_btn a {
+    padding: 7px 14px;
+}
+/* slider end  */
+
+
+/* welcome start  */
+.frst_row_content p {
+    line-height: 30px;
+    word-spacing: 0px;
+}
+.scnd_row_content {
+    margin-top: 60px;
+}
+.scnd_row_content h3 {
+    margin: 60px 0 20px;
+}
+.scnd_row_content p {
+    margin: 0;
+    padding: 10px;
+    line-height: 30px;
+}
+.wlcm_btn {
+    margin-bottom: 15px;
+}
+/* welcome end  */
+
+/* about us start  */
+.aboutus {
+    margin: 60px 0 80px;
+}
+.about_text {
+    text-align: center;
+}
+.about_img img {
+    padding: 0 45px;
+}
+.about_title h1 {
+    margin-top: 30px !important;
+}
+.about_para {
+    margin: 20px 0;
+    line-height: 28px;
+    word-spacing: 1px;
+}
+.about_para2{
+    line-height: 28px;
+    word-spacing: 1px;
+}
+.about_btn a {
+    margin-top: 40px;
+}
+/* about us end  */
+
+/* recent work start  */
+.r_work{
+    padding-bottom: 70px;
+}
+.work_title {
+    margin: 20px 0 50px;
+}
+.work_btn button {
+    margin: 0 0 0 35px;
+    padding: 7px 8px;
+}
+/* recent work end  */
+
+/* why choose nipro start  */
+.choose {
+    margin: 0 0 80px;
+}
+.choose_item {
+    margin-top: 60px
+}
+.choose_item p {
+    margin: 20px 0 30px;
+    line-height: 23px;
+    word-spacing: 7px;
+}
+/* why choose nipro end  */
+
+/* who work with us --- client start  */
+.client_content {
+    margin: 25px 0 25px;
+}
+.client_icon {
+    bottom: 36%;;
+}
+/* who work with us --- client end  */
+
+/* best pricing start  */
+.price {
+    margin: 0 0 60px;
+}
+.price_content {
+    margin: 65px 0 0;
+}
+.price_content ul li {
+    margin-top: 15px;
+}
+.price_btn {
+    margin: 20px 0;
+}
+.price_btn a {
+    padding: 9px 48px;
+}
+/* best pricing end  */
+
+/* responsive start  */
+.responsive {
+    padding: 20px 0;
+}
+.res_text h1 {
+    font-size: 16px;
+}
+.res_btn a {
+    padding: 10px 25px;
+}
+/* responsive end  */
+
+/* profile start  */
+.profile{
+    margin: 70px 0;
+}
+.profile_content {
+    padding: 40px 55px;
+}
+.prof_text h4{
+    margin-top: 30px !important;
+}
+.prof_text {
+    text-align: center;
+}
+.profpara1 {
+    margin: 7px 0;
+}
+.profpara3 {
+    margin: 10px 0;
+}
+.prof_cntrls_btn {
+    margin-top: 20px;
+    height: 70px;
+    writing-mode: horizontal-tb;
+}
+.prof_cntrls_btn button {
+    margin: 21px 92px;
+}
+/* profile end  */
+
+/* contact us start  */
+.contact{
+    margin-bottom: 70px;
+}
+.contact_top {
+    left: 165px;
+}
+.contact_content {
+    padding: 0 50px;;
+}
+.contact_fn input {
+    margin-top: 70px;
+}
+.contact_ln input {
+    margin-top: 40px;
+}
+/* contact us end  */
+
+/* footer start  */
+.footpara {
+    margin: 25px 0;
+}
+.footbtmpara p {
+    margin: 8px 0 15px !important;
+    font-size: 14px;
+}
+.foot_icon ul li a i {
+    padding: 5px 7px;
+}
+.footbb {
+    margin: 60px 0 25px;
+}
+.footbtmpara {
+    text-align: center;
+}
+.footbtmmenu {
+    text-align: center;
+}
+.footbtmmenu ul li a{
+    font-size: 14px;
+}
+/* footer end  */
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/* header start      */
+header {
+    margin: 38px 0 38px;
+}
+.menu ul li a {
+    margin: 20px 0 0;
+}
+.dropdown-menu[data-bs-popper] {
+    left: 0px;
+}
+/* header end  */
+
+/* slider start  */
+.slider_row {
+    justify-content: center;
+}
+.cus_slider {
+    text-align: center;
+}
+.slider_item h2 {
+    font-size: 45px;
+}
+/* slider end  */
+
+/* welcome start  */
+.frst_row_content p {
+    line-height: 32px;
+    word-spacing: 2px;
+}
+.scnd_row_content {
+    margin-top: 80px;
+}
+.scnd_row_content h3 {
+    margin: 60px 0 20px;
+}
+.scnd_row_content p {
+    margin: 20px 0 25px;
+    padding: 20px;
+    line-height: 30px;
+}
+.wlcm_btn {
+    margin-bottom: 15px;
+}
+/* welcome end  */
+
+/* about us start  */
+.aboutus {
+    margin: 80px 0 100px;
+}
+.about_text {
+    text-align: center;
+}
+.about_img img {
+    padding: 0 80px;
+}
+.about_title h1 {
+    margin-top: 40px !important;
+}
+.about_para {
+    margin: 30px 0;
+    line-height: 28px;
+    word-spacing: 1px;
+}
+.about_para2{
+    line-height: 28px;
+    word-spacing: 1px;
+}
+.about_btn a {
+    margin-top: 40px;
+}
+/* about us end  */
+
+/* recent work start  */
+.r_work{
+    padding-bottom: 80px;
+}
+.work_title {
+    margin: 20px 0 50px;
+}
+.work_btn button {
+    margin: 0 0 0 15px;
+    padding: 7px 8px;
+}
+/* recent work end  */
+
+/* why choose nipro start  */
+.choose {
+    margin: 0 0 80px;
+}
+.choose_item {
+    margin-top: 60px
+}
+.choose_item p {
+    word-spacing: 7px;
+}
+/* why choose nipro end  */
+
+/* who work with us --- client start  */
+.client_content{
+ margin: 60px 0 0;
+} 
+/* who work with us --- client end  */
+
+/* best pricing start  */
+.price {
+    margin: 0 0 70px;
+}
+.price_content {
+    margin: 75px 0 0;
+}
+.price_btn a {
+    padding: 15px 93px;
+}
+/* best pricing end  */
+
+/* responsive start  */
+.res_text h1 {
+    font-size: 18px;
+}
+.res_btn a {
+    padding: 10px 25px;
+}
+/* responsive end  */
+
+/* profile start  */
+.profile{
+    margin: 80px 0;
+}
+.profile_content {
+    padding: 40px 55px;
+}
+.prof_text h4{
+    margin-top: 30px !important;
+}
+.prof_text {
+    text-align: center;
+}
+.profpara1 {
+    margin: 7px 0;
+}
+.profpara3 {
+    margin: 10px 0;
+}
+.prof_cntrls_btn {
+    margin-top: 20px;
+    height: 70px;
+    writing-mode: horizontal-tb;
+}
+.prof_cntrls_btn button {
+    margin: 21px 130px;
+}
+/* profile end  */
+
+/* contact us start  */
+.contact{
+    margin-bottom: 80px;
+}
+.contact_content {
+    padding: 0 85px;;
+}
+.contact_top {
+    left: 257px;
+}
+/* contact us end  */
+
+/* footer start  */
+.footbtmpara p {
+    margin-top: 3px !important;
+    font-size: 14px;
+}
+.foot_icon ul li a i {
+    padding: 5px 7px;
+}
+.footbtmmenu ul li a{
+    font-size: 14px;
+}
+/* footer end  */
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/* header start      */
+.menu ul li a {
+    margin-right: 33px;
+}
+/* header end  */
+
+/* slider start  */
+.slider_item h2 {
+    font-size: 45px;
+}
+.slider_item p {
+    line-height: 35px;
+    word-spacing: 5px;
+}
+/* slider end  */
+
+/* welcome start  */
+.scnd_row_content h3 {
+    margin: 60px 0 20px;
+}
+.scnd_row_content p {
+    margin: 20px 0 25px;
+    line-height: 26px;
+}
+.wlcm_btn {
+    margin-bottom: 15px;
+}
+/* welcome end  */
+
+/* about us start  */
+.about_img img {
+    height: 349px;
+}
+.about_para {
+    margin: 20px 0;
+    line-height: 23px;
+    word-spacing: 0px;
+}
+.about_para2{
+    line-height: 23px;
+    word-spacing: 0px;
+}
+.about_btn a {
+    margin-top: 20px;
+}
+/* about us end  */
+
+/* recent work start  */
+.work_btn button {
+    margin: 0 0 0 5px;
+}
+/* recent work end  */
+
+/* why choose nipro start  */
+.choose_item p {
+    word-spacing: 4px;
+}
+/* why choose nipro end  */
+
+/* who work with us --- client start  */
+.client_icon {
+    bottom: 34%;
+}
+/* who work with us --- client end  */
+
+/* best pricing start  */
+.price_content h2 {
+    font-size: 30px;
+}
+.price_btn a {
+    padding: 9px 33px;
+}
+/* best pricing end  */
+
+/* responsive start  */
+.res_text h1 {
+    font-size: 18px;
+}
+/* responsive end  */
+
+/* profile start  */
+.prof_img img {
+    height: 280px;
+}
+.profpara1 {
+    margin: 7px 0;
+}
+.profpara3 {
+    margin: 10px 0;
+}
+.prof_cntrls_btn {
+    height: 367px;
+}
+.prof_cntrls_btn button {
+    margin: 56px 14px;
+}
+/* profile end  */
+
+/* contact us start  */
+.contact_top {
+    left: 373px;
+}
+/* contact us end  */
+
+/* footer start  */
+.foot_icon ul li a i {
+    padding: 7px 12px;
+}
+/* footer end  */
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px){ 
+
+/* slider start  */
+.slider_item h2 {
+    font-size: 55px;
+}
+/* slider end  */
+
+/* welcome start  */
+.scnd_row_content h3 {
+    margin: 70px 0 20px;
+}
+.scnd_row_content p {
+    margin: 20px 0 25px;
+}
+/* welcome end  */
+
+/* about us start  */
+.about_para {
+    margin: 20px 0;
+    line-height: 28px;
+    word-spacing: 0px;
+}
+.about_para2{
+    line-height: 27px;
+    word-spacing: 0px;
+}
+.about_btn a {
+    margin-top: 25px;
+}
+/* about us end  */
+
+/* who work with us --- client start  */
+.client_icon {
+    bottom: 37%;
+}
+/* who work with us --- client end  */
+
+/* best pricing start  */
+.price_btn a {
+    padding: 12px 54px;
+}
+/* best pricing end  */
+
+/* profile start  */
+.profpara3 {
+    margin: 29px 0;
+}
+.prof_cntrls_btn {
+    height: 395px;
+}
+.prof_cntrls_btn button {
+    margin: 60px 23px;
+}
+/* profile end  */
+
+/* contact us start  */
+.contact_top {
+    left: 467px;
+}
+/* contact us end  */
+
+/* footer start  */
+.foot_icon ul li a i {
+    padding: 8px 9px;
+}
+/* footer end  */
+
+
+}
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+    
+}
