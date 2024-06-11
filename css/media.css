@@ -50,7 +50,7 @@ header {
     font-size: 25px;
 }
 .frst_row_content p {
-    line-height: 30px;
+    line-height: 25px;
     word-spacing: 0px;
 }
 .scnd_row_content {
@@ -81,14 +81,15 @@ header {
 }
 .about_title h1 {
     margin-top: 30px !important;
+    font-size: 25px;
 }
 .about_para {
     margin: 20px 0;
-    line-height: 28px;
+    line-height: 25px;
     word-spacing: 0px;
 }
 .about_para2{
-    line-height: 28px;
+    line-height: 25px;
     word-spacing: 0px;
 }
 .about_btn a {
@@ -116,6 +117,7 @@ header {
 }
 .work_img {
     margin-top: 35px;
+    padding: 0 25px;
 }
 /* recent work end  */
 
@@ -131,6 +133,9 @@ header {
 }
 .choose_title h1 {
     font-size: 25px;
+}
+.client_text h3 {
+    font-size: 16px;
 }
 .choose_item p {
     margin: 10px 0 15px;
@@ -171,7 +176,7 @@ header {
 }
 .price_title h1 {
     margin: 20px 0 0;
-    font-size: 27px;
+    font-size: 25px;
 }
 .pricecolpadd {
     padding: 0 35px;
@@ -210,7 +215,7 @@ header {
     text-align: center;
 }
 .res_btn a {
-    padding: 5px 10px;
+    padding: 10px 25px;
     font-size: 12px;
     margin-right: 10px;
 }
@@ -234,6 +239,7 @@ header {
 }
 .profpara3 {
     margin: 10px 0;
+    word-spacing: 0;
 }
 .prof_cntrls_btn {
     margin-top: 20px;
