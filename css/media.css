@@ -117,7 +117,11 @@ header {
 }
 .work_img {
     margin-top: 35px;
-    padding: 0 25px;
+    /* padding: 0 25px; */
+}
+.work_icon{
+    left: 120px;
+    top: 100px;
 }
 /* recent work end  */
 
@@ -216,7 +220,7 @@ header {
 }
 .res_btn a {
     padding: 10px 25px;
-    font-size: 12px;
+    font-size: 16px;
     margin-right: 10px;
 }
 /* responsive end  */
@@ -419,6 +423,10 @@ header {
 .work_btn button {
     margin: 0 0 0 35px;
     padding: 7px 8px;
+}
+.work_icon{
+    left: 95px;
+    top: 80px;
 }
 /* recent work end  */
 
@@ -636,6 +644,10 @@ header {
     margin: 0 0 0 15px;
     padding: 7px 8px;
 }
+.work_icon{
+    left: 137px;
+    top: 130px;
+}
 /* recent work end  */
 
 /* why choose nipro start  */
@@ -788,6 +800,10 @@ header {
 .work_btn button {
     margin: 0 0 0 5px;
 }
+.work_icon{
+    left: 120px;
+    top: 115px;
+}
 /* recent work end  */
 
 /* why choose nipro start  */
@@ -881,6 +897,13 @@ header {
     margin-top: 25px;
 }
 /* about us end  */
+
+/* recent work start  */
+.work_icon{
+    left: 160px;
+    top: 150px;
+}
+/* recent work end  */
 
 /* who work with us --- client start  */
 .client_icon {
