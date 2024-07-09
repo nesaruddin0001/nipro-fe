@@ -301,8 +301,9 @@ header{
 .work_img img{}
 .work_icon{
     position: absolute;
-    left: 178px;
-    top: 142px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     display: none;
     transition: .33s;
 }
