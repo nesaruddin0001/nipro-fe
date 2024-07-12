@@ -59,8 +59,8 @@ header{
 .dropdown-menu[data-bs-popper] {
     left: -150px;
 }
-.search_btn:hover{
-    border: 1px solid #8e8e8e;
+.search_btn:hover, .search_btn:active{
+    border: 1px solid #000000;
     border-radius: 4px;
 }
 .search_btn:hover i{
@@ -642,8 +642,6 @@ header{
 .prof_cntrls_btn button{
     margin: 74px 29px;
 }
-
-
 /* profile end  */
 
 
@@ -765,7 +763,7 @@ footer{
     border: 1px solid #fff;
 }
 .foot_icon ul li a i{
-    padding: 14px 13px;
+    padding: 5px 10px;
     font-size: 26px;
     font-weight: 400;
     color: #fff;
