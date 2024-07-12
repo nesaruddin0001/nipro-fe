@@ -420,8 +420,9 @@ header{
 .client_icon{
     display: none;
     position: absolute;
-    bottom: 39%;
+    top: 40%;
     left: 0;
+    transform: translateY(-50%);
     width: 15%;
     background-color: #fff;
 }

@@ -162,8 +162,8 @@ header {
     padding: 0 40px;
 }
 .client_icon {
-    bottom: 34%;
-    left: 40px;
+    margin: 0 40px;
+    top: 38%;
 }
 /* who work with us --- client end  */
 
@@ -441,7 +441,7 @@ header {
     margin: 25px 0 25px;
 }
 .client_icon {
-    bottom: 36%;;
+    top: 38%;
 }
 /* who work with us --- client end  */
 
@@ -798,7 +798,7 @@ header {
 
 /* who work with us --- client start  */
 .client_icon {
-    bottom: 34%;
+    top: 38%;
 }
 /* who work with us --- client end  */
 
@@ -888,7 +888,7 @@ header {
 
 /* who work with us --- client start  */
 .client_icon {
-    bottom: 37%;
+    
 }
 /* who work with us --- client end  */
 
